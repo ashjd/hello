@@ -4,18 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashjd/hello.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ashjd/hello/issues"
-  },
-  "homepage": "https://github.com/ashjd/hello#readme",
   "devDependencies": {
     "eslint": "^2.13.0",
     "eslint-config-airbnb": "^9.0.1",
