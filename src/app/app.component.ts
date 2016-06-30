@@ -47,7 +47,7 @@ export class App {
   angularclassLogo = 'assets/img/asl-d.png';
   loading = false;
   name = 'hello.';
-  url = 'https://twitter.com/AngularClass';
+  url = 'https://github.com/digi-talk/hello';
 
   constructor(public appState: AppState) {
 
