@@ -1,13 +1,19 @@
 import { Component, OnInit } from '@angular/core';
+<<<<<<< 8f97aa0184bc48468cfe54ac78cf4ba7b49e5ac9
 import { AlphabetCaptureCheck } from './AlphabetCaptureCheck.service'
 import { AuthService } from '../auth.service';
 import { AppState } from '../app.service';
+import { AlphabetCaptureCheck } from './AlphabetCaptureCheck.service';
+//import { LeapTrainerService } from './leapTrainer.service';
+import { AppState } from '../app.service';
+import { CreatePageState } from '../create/createPageState.service';
+
 
 @Component({
   selector: 'learn',
   template: require('./learn.component.html'),
   styles: [require('./learn.component.css')],
-  providers: [AlphabetCaptureCheck]
+  providers: [AlphabetCaptureCheck, /*LeapTrainerService,*/ AppState, CreatePageState]
 })
 
 export class Learn implements OnInit {
@@ -47,9 +53,19 @@ export class Learn implements OnInit {
     {val: 'Z', color:'primary', count: 0}
   ];
 
+<<<<<<< 8f97aa0184bc48468cfe54ac78cf4ba7b49e5ac9
   constructor( private alphabetCaptureCheck: AlphabetCaptureCheck,
     private authService: AuthService, 
     private appState: AppState) {}
+=======
+  constructor( 
+    private alphabetCaptureCheck: AlphabetCaptureCheck,
+    //private leapTrainerService: LeapTrainerService,
+    private appState: AppState,
+    private createPageState: CreatePageState
+    ) {
+      //this.leapTrainerService._initLeapTrainer();
+  }
 
   ngOnInit() {
     this.letters.forEach((letter) => {
