@@ -3,11 +3,11 @@
   margin-top: 30px;
   margin-left: 30px;
   width: 1000px;
-  height: 550px;
+  height: 650px;
   overflow: hidden;
 }
 
-.alphabets {
+.alphabet {
   float: left;
   width: 380px;
   height: 350px;
@@ -63,7 +63,7 @@
   position: absolute;
 }
 
-.alphabets-container {
+.alphabet-container {
   width: 380px;
   height: 350px;
   border: 0.2px solid;
@@ -90,7 +90,7 @@
 .score-container {
   height: 30px;
   width: 840px;
-  top: 500px;
+  top: 620px;
   background-color: white;
   position: absolute;
   padding: 20px;
@@ -105,4 +105,8 @@
   padding: 3px;
   float: left;
   position: relative;
+}
+
+.head-center {
+  text-align: center;
 }
