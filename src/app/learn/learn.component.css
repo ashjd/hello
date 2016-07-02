@@ -1,31 +1,16 @@
 .container {
   float: left;
-  /*margin-top: 30px;*/
-  /*margin-left: 30px;*/
-  width: 1000px;
-  height: 650px;
+  margin-top: auto;
+  margin-left: auto;
+  width: 870px;
+  height: 490px;
   overflow: hidden;
   padding: 25px;
-}
-
-.alphabet {
-  float: left;
-  width: 380px;
-  height: 350px;
-  background-color: white;
-}
-
-.image {
-  float: left;
-  width: 500px;
-  height: 500px;
-  margin-left: 70px;
-  position: relative;
-  overflow: hidden;
-  z-index: 2;
+  border: 2px solid;
 }
 
 .image-container {
+  float: left;
   width: 380px;
   height: 350px;
   border: 0.2px solid;
@@ -35,6 +20,8 @@
   position: relative;
   overflow: hidden;
   border-radius: 3px;
+  /*margin-right: 5%;*/
+  /*margin-left: 5%;*/
 }
 
 .capture {
@@ -59,8 +46,8 @@
 }
 
 .image-display {
-  width: 70%;
-  margin: 0 auto;
+  /*width: 70%;*/
+  margin: 0;
   bottom: 0px;
   position: absolute;
 }
@@ -73,10 +60,8 @@
   background-color: white;
   padding: 20px;
   border-radius: 3px;
-}
-
-.alphabet {
-  padding-right: 10px;
+  float: left;
+  margin-right: 25px;
 }
 
 .button-container {

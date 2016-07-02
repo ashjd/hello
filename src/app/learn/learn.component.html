@@ -4,7 +4,7 @@
 </div>
 
 <div class="container animated fadeIn">
-  <div class="alphabet">
+  <!-- <div class="alphabet"> -->
     <md-tab-group class="alphabet-container animated pulse">
       <md-tab>
         <template md-tab-label>Alphabet</template>
@@ -21,10 +21,10 @@
         <template md-tab-content></template>
       </md-tab>
     </md-tab-group>
-  </div>
+  <!-- </div> -->
 
-  <div *ngIf="showImgDiv" class="image">
-    <div class="image-container">
+  <!-- <div  class="image animated fadeIn"> -->
+    <div *ngIf="showImgDiv" class="image-container">
       <div class="capture-button">
         <button md-button color="primary" (click) = "hideImgDiv();"> Click when READY </button>
       </div>
@@ -32,7 +32,7 @@
         <img [src] = "imageUrl"/>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
 
   <div *ngIf="showCaptureDiv" class="capture">
     <div class="capture-container">
@@ -40,7 +40,7 @@
     </div>
   </div>
 
-  <div *ngIf="mastered.length" class='score-container'>
+  <div *ngIf="mastered.length" class='score-container animated pulse'>
     <div class = 'score'>
       You have mastered : {{ mastered }}
     </div>
