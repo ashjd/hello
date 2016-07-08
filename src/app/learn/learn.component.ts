@@ -178,6 +178,17 @@ export class Learn implements OnInit {
       document.dispatchEvent(new Event('ltContainerAdded'));
     }, 0);
 
+    this.startTimer = true;
+    this.sec = 5;
+    this.interval = setInterval(() => {
+      if (this.sec > 0) {
+        this.sec--;
+      }
+     }, 1000);
+    setTimeout(() => {
+      this.startTimer = false;
+    }, 5000);
+
   }
 
   private gestureCtrlConnected = false;
