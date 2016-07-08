@@ -102,8 +102,12 @@ export class Learn implements OnInit {
     this.letterCheckingService.target = letter.val;
     let isCorrectLetter;
     this.startTimer = true;
-    // this.inetrval = setInterval(() => {
-    // }, 1000);
+    this.sec = 5;
+    this.interval = setInterval(() => {
+      if (this.sec > 1) {
+        this.sec--;
+      }
+     }, 1000);
 
     setTimeout(() => {
       this.startTimer = false;
