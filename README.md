@@ -1,6 +1,6 @@
 #Hello
 
-An interactive portal for learning american sign languge. Unauthenticated users can only interact with the Learn mode.  Users who don't have a Leap Motion can still study but none of the interactive 3D or custom gesture modes are available.
+An interactive portal for learning american sign language. Unauthenticated users can only interact with the Learn mode.  Users who don't have a Leap Motion can still study but none of the interactive 3D or custom gesture modes are available.
 
 ##Table of Contents
 * [Team Members](#team-members)
